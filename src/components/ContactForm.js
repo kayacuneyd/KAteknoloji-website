@@ -20,7 +20,7 @@ export default function ContactForm() {
             <input
               type="hidden"
               name="_next"
-              value="http://localhost:3000/thanks"
+              value="https://kateknoloji.vercel.app/thanks"
             />
             <div className="col mb-2">
               <input
