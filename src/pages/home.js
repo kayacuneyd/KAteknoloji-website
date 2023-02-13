@@ -1,11 +1,12 @@
 import React from "react";
-import Footer from "../components/Footer";
+import { Container, Row } from "react-bootstrap";
 import Col from "react-bootstrap/Col";
+import CTA from "../components/CTA";
+import Features from "../components/Features";
+import Footer from "../components/Footer";
 import { Header } from "../components/Header";
 import KatekNavbar from "../components/KatekNavbar";
-import { Container, Row } from "react-bootstrap";
-import Features from "../components/Features";
-import CTA from "../components/CTA";
+import SEO from "../components/SEO";
 
 const features = [
   {
@@ -43,6 +44,19 @@ const features = [
 const Home = () => {
   return (
     <>
+      <SEO
+        title={
+          "Anasayfa | Elektrik taahhüt, Veri merkezi kurulumu ve proje yönetimi"
+        }
+        description={`Elektrik taahhüt işleri, 
+          verimerkezi kurulumları, 
+          yapısal kablolama sistemleri, 
+          enerji altyapı sistemleri, 
+          tesis işletim hizmetleri, 
+          teknik servis ve bakım hizmetleri gibi alanlar KA Teknoloji'nin ana faaliyet alanlarıdır.`}
+        name={"KA Teknoloji"}
+        type={"article"}
+      />
       <Container>
         <Row>
           <Col>
