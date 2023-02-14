@@ -5,10 +5,24 @@ import Row from "react-bootstrap/Row";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 import KatekNavbar from "../components/KatekNavbar";
+import SEO from "../components/SEO";
 
 export default function Hizmetler() {
   return (
     <>
+      <SEO
+        title={
+          "Hizmetler Sayfası | Elektrik taahhüt, Veri merkezi kurulumu ve proje yönetimi ve daha nice konularda bizden alabileceğiniz hizmetler."
+        }
+        description={`Elektrik taahhüt işleri, 
+          verimerkezi kurulumları, 
+          yapısal kablolama sistemleri, 
+          enerji altyapı sistemleri, 
+          tesis işletim hizmetleri, 
+          teknik servis ve bakım hizmetleri gibi alanlar KA Teknoloji'nin ana faaliyet alanlarıdır.`}
+        name={"KA Teknoloji İletişim Sayfası"}
+        type={"article"}
+      />
       <Container>
         <Row>
           <Col>

@@ -4,10 +4,24 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Footer from "../components/Footer";
 import KatekNavbar from "../components/KatekNavbar";
+import SEO from "../components/SEO";
 
 const Tesekkurler = () => {
   return (
     <>
+      <SEO
+        title={
+          "Teşekkür Sayfası | Elektrik taahhüt, Veri merkezi kurulumu ve proje yönetimi konularında bizimle iletişime geçebilirsiniz."
+        }
+        description={`Elektrik taahhüt işleri, 
+          verimerkezi kurulumları, 
+          yapısal kablolama sistemleri, 
+          enerji altyapı sistemleri, 
+          tesis işletim hizmetleri, 
+          teknik servis ve bakım hizmetleri gibi alanlar KA Teknoloji'nin ana faaliyet alanlarıdır.`}
+        name={"KA Teknoloji İletişim Sayfası"}
+        type={"article"}
+      />
       <Container>
         <Row>
           <Col>

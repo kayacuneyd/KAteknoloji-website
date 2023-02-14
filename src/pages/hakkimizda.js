@@ -8,6 +8,7 @@ import AboutHeader from "../components/AboutHeader";
 import ReferenceList from "../components/ReferenceList";
 import CTA from "../components/CTA";
 import Misyon from "../components/Misyon";
+import SEO from "../components/SEO";
 
 const referenceList = [
   {
@@ -80,6 +81,19 @@ const referenceList = [
 const Hakkimizda = () => {
   return (
     <>
+      <SEO
+        title={
+          "Hakkımızda sayfası | Elektrik taahhüt, Veri merkezi kurulumu ve proje yönetimi konularında bizimle iletişime geçebilirsiniz."
+        }
+        description={`Elektrik taahhüt işleri, 
+          verimerkezi kurulumları, 
+          yapısal kablolama sistemleri, 
+          enerji altyapı sistemleri, 
+          tesis işletim hizmetleri, 
+          teknik servis ve bakım hizmetleri gibi alanlar KA Teknoloji'nin ana faaliyet alanlarıdır.`}
+        name={"KA Teknoloji İletişim Sayfası"}
+        type={"article"}
+      />
       <Container>
         <Row>
           <Col>
