@@ -1,13 +1,13 @@
 import React from "react";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import KatekNavbar from "../components/KatekNavbar";
-import Footer from "../components/Footer";
 import { Container } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import AboutHeader from "../components/AboutHeader";
-import ReferenceList from "../components/ReferenceList";
 import CTA from "../components/CTA";
+import Footer from "../components/Footer";
+import KatekNavbar from "../components/KatekNavbar";
 import Misyon from "../components/Misyon";
+import ReferenceList from "../components/ReferenceList";
 import SEO from "../components/SEO";
 
 const referenceList = [
@@ -28,7 +28,7 @@ const referenceList = [
   },
   {
     title: "ASAŞ",
-    foto: "../assets/img/asaş.jpg",
+    foto: "../assets/img/asas.jpg",
     id: 4,
   },
   {
