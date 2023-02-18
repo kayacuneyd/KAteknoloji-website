@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import { RiFacebookFill, RiInstagramLine, RiMailLine } from "react-icons/ri";
 
 export default function Footer() {
@@ -69,7 +69,7 @@ export default function Footer() {
                   width={300}
                   height={225}
                   style={{ border: "0" }}
-                  allowfullscreen="true"
+                  allowFullScreen="true"
                   title="adresimiz"
                 ></iframe>
               </div>
