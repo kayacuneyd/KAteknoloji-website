@@ -110,7 +110,7 @@ export default function Hizmetler() {
           </Col>
           <Col md>
             <img
-              src="../assets/img/yükseldoseme.jpg"
+              src="../assets/img/yukseldoseme.jpg"
               className="d-md-block serviceImg mx-lg-auto img-fluid d-none d-sm-none rounded"
               alt="Ka Teknoloji"
             />
