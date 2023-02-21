@@ -16,8 +16,10 @@ export default function Footer() {
                 <ul className="m-0 p-0">
                   <li className="list-style-none d-inline-block mr-3">
                     <a
-                      href="/"
+                      href="https://www.facebook.com/kateknolojidanismanlik"
+                      target="_blank"
                       className="bg-facebook footer__widget-social overflow-hidden lh-4 text-center position-relative rounded text-white d-inline-block mx-3"
+                      rel="noreferrer"
                     >
                       <RiFacebookFill />
                     </a>
@@ -25,7 +27,9 @@ export default function Footer() {
                   <li className="list-style-none d-inline-block mr-3">
                     <a
                       className="bg-instagram footer__widget-social overflow-hidden lh-4 text-center position-relative rounded text-white d-inline-block mx-3"
-                      href="#/"
+                      target="_blank"
+                      href="https://www.instagram.com/kateknolojidanismanlik/"
+                      rel="noreferrer"
                     >
                       <RiInstagramLine />
                     </a>
@@ -33,7 +37,9 @@ export default function Footer() {
                   <li className="list-style-none d-inline-block mr-3">
                     <a
                       className="bg-gmail footer__widget-social overflow-hidden lh-4 text-center position-relative rounded text-white d-inline-block mx-3"
-                      href="/"
+                      target="_blank"
+                      href="mailto:fatih@kateknoloji.com"
+                      rel="noreferrer"
                     >
                       <RiMailLine />
                     </a>

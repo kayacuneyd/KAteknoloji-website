@@ -5,7 +5,7 @@ import React from "react";
 export default function ContactForm() {
   return (
     <>
-      <form action="https://formsubmit.co/kaya@altmails.com" method="POST">
+      <form action="https://formsubmit.co/fatih@kateknoloji.com" method="POST">
         <div className="form-group mb-2">
           <div className="form-row">
             <div className="col mb-2">
@@ -20,7 +20,7 @@ export default function ContactForm() {
             <input
               type="hidden"
               name="_next"
-              value="https://kateknoloji.vercel.app/thanks"
+              value="https://ka-teknoloji.com/thanks"
             />
             <div className="col mb-2">
               <input
